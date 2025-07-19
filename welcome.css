@@ -8,20 +8,44 @@
 .welcome__desc {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding: 110px 60px 0;
 }
 
 .welcome__img-wrapper {
+    width: 615px;
+    /*height: 873px;*/
+    flex-shrink: 0;
 }
 
 .welcome__img {
-    width: 650px;
-    height: 873px;
-    flex-shrink: 0;
-    padding-right: 60px;
+
 }
 
 .welcome__title {
     font-size: 70px;
-    line-height: 88px;
+    line-height: 1.26;
     letter-spacing: 3px;
+    margin-bottom: 74px;
+}
+
+.welcome__title-level {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.welcome__text {
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0 0 16px 22px;
+}
+
+.socials {
+    display: flex;
+    gap: 17px;
+    padding: 0 0 0 22px;
+}
+
+.socials__img {
+    display: flex;
 }

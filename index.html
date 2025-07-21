@@ -8,68 +8,94 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./welcome.css">
+    <link rel="stylesheet" href="./episodes.css">
 </head>
 <body>
 <header class="header">
     <div class="container">
-
         <a href="index.html" class="logo">
             <img src="logo.svg" alt="Лого">
         </a>
-
         <ul class="header__nav">
             <li><a href="" class="header__link">Home</a></li>
             <li><a href="" class="header__link">Episodes</a></li>
             <li><a href="" class="header__link">About</a></li>
             <li><a href="" class="header__link">Contact</a></li>
         </ul>
-
-        <!--        <nav class="header__nav">-->
-        <!--            <a href="#!" class="header__link">Home</a>-->
-        <!--            <a href="#works" class="header__link">Work</a>-->
-        <!--            <a href="#contact" class="header__link">Contact</a>-->
-        <!--        </nav>-->
     </div>
 </header>
 
-<section class="welcome">
-    <div class="container">
-        <div class="welcome__img-wrapper">
-            <img src="./images/blog.png" alt="" class="welcome__img">
+<main>
+    <section class="welcome">
+        <div class="container">
+            <div class="welcome__img-wrapper">
+                <img src="./images/blog.png" alt="" class="welcome__img">
+            </div>
+            <div class="welcome__desc">
+                <h1 class="welcome__title">Take your podcast to the next <span class="welcome__title-level">level</span>
+                </h1>
+                <p class="welcome__text">Listen on</p>
+                <ul class="socials">
+                    <li>
+                        <a href="https://open.spotify.com/" class="socials__link">
+                            <img class="socials__icon" src="images/spotify.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://play.google.com/store/apps/details?id=fm.castbox.audiobook.radio.podcast"
+                           class="socials__link">
+                            <img class="socials__icon" src="images/castbox.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/lae/apple-podcasts/" class="socials__link">
+                            <img class="socials__icon" src="images/apple%20-podcasts.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://soundcloud.com/?%2F%2F=" class="socials__link">
+                            <img class="socials__icon" src="images/sound-cloud.svg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://tunein.com/" class="socials__link">
+                            <img class="socials__icon" src="images/tuneIn-radio.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="welcome__desc">
-            <h1 class="welcome__title">Take your podcast to the next <span class="welcome__title-level">level</span></h1>
-            <p class="welcome__text">Listen on</p>
-            <ul class="socials">
-                <li>
-                    <a href="https://open.spotify.com/" class="socials__link">
-                        <img class="socials__icon" src="images/spotify.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://play.google.com/store/apps/details?id=fm.castbox.audiobook.radio.podcast" class="socials__link">
-                        <img class="socials__icon" src="images/castbox.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.apple.com/lae/apple-podcasts/" class="socials__link">
-                        <img class="socials__icon" src="images/apple%20-podcasts.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://soundcloud.com/?%2F%2F=" class="socials__link">
-                        <img class="socials__icon" src="images/sound-cloud.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://tunein.com/" class="socials__link">
-                        <img class="socials__icon" src="images/tuneIn-radio.svg" alt="">
-                    </a>
-                </li>
-            </ul>
+    </section>
+
+    <section class="episodes">
+        <div class="container">
+            <div class="episodes__top-content">
+                <h3 class="title">Latest episodes</h3>
+                <button class="btn">View all episodes</button>
+            </div>
+
+            <div class="episodes__card">
+                <div class="episodes__img-wrapper">
+                    <img src="./images/episodes-1.jpg" alt="">
+                </div>
+                <div class="episodes__desc">
+                    <div class="episodes__label">Gear</div>
+                    <p class="episodes__count">Episode 3</p>
+                    <h2>Should you get outboard audio gear?</h2>
+                    <p>Is hardware really worth it when it comes to podcasting?
+                        The answer is...it depends. Here’s our reasons on
+                        why you might want to consider picking something up.
+                    </p>
+                    <button class="btn">View Episode Details</button>
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+</main>
+
+<footer class="footer">
+
+</footer>
 
 </body>
 </html>

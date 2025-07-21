@@ -68,11 +68,11 @@ a:active {
 .btn {
     font-size: 18px;
     color: #ffffff;
-    padding: 16px 48px;
-    background: #909090;
-    border-radius: 4px;
-    display: inline-flex;
-    align-items: center;
+    padding: 12px 20px;
+    border-radius: 6px;
+    background: #118DA8;
+    height: max-content;
+    border: none;
 }
 
 .btn:hover {

@@ -21,10 +21,6 @@ p {
     margin: 0;
 }
 
-img {
-    max-width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
@@ -85,7 +81,6 @@ a:active {
 
 .header {
     padding: 20px 0;
-    /*background: rgba(50, 50, 50, 0.7);*/
     backdrop-filter: blur(10px);
 }
 

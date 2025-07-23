@@ -1,3 +1,7 @@
+.episodes {
+    margin-bottom: 200px;
+}
+
 .episodes__top-content {
     display: flex;
     justify-content: space-between;

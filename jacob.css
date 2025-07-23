@@ -1,0 +1,42 @@
+.jacob {
+    display: flex;
+}
+
+.jacob__desc {
+    padding: 110px 60px 0;
+}
+
+.jacob .btn {
+    width: 112px;
+    height: 112px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    /*padding: 40px 24px;*/
+}
+
+.jacob__count {
+    color: #118DA8;
+}
+
+.jacob .container {
+    display: flex;
+}
+
+.jacob__desc {
+}
+
+.jacob__title {
+    margin-bottom: 28px;
+}
+
+.jacob__p-1 {
+    margin-bottom: 33px;
+}
+
+.btn {
+}
+
+.jacob__img {
+    width: 600px;
+    border-radius: 12px;
+}

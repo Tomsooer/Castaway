@@ -1,0 +1,42 @@
+.comments {
+    margin-bottom: 200px;
+}
+
+.comments .container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.comments__elements {
+    padding: 10px;
+}
+
+.comments__item {
+    border-radius: 32px;
+    background: #000;
+    padding: 54px 40px 60px 40px;
+    /*width: 288px;*/
+    width: 320px;
+    height: 234px;
+    flex-shrink: 0;
+}
+
+.comments__ul {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.comments__li {
+    padding: 5px;
+}
+
+.comments__h3 {
+    width: max-content;
+    margin-bottom: 20px;
+}
+
+.comments__img {
+
+}

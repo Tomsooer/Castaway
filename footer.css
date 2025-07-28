@@ -1,0 +1,44 @@
+.footer {
+}
+
+.footer .container {
+    display: flex;
+}
+
+.logo {
+margin-bottom: 20px;
+}
+
+.footer__social-list {
+    display: flex;
+    padding: 0;
+}
+
+.footer__social-item {
+    padding-right: 10px;
+}
+
+.footer__nav-list {
+    margin-left: 239px;
+}
+
+ .footer__nav-item {
+    padding-bottom: 10px;
+}
+
+.footer__info-list {
+    margin-left: 146px;
+}
+
+.footer__info-item {
+    padding-bottom: 10px;
+}
+
+.socials {
+}
+
+.socials__link {
+}
+
+.socials__icon {
+}

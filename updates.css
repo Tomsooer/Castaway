@@ -11,6 +11,14 @@
     padding: 60px;
     border-radius: 32px;
     box-sizing: border-box;
+    position: relative;
+}
+
+.welcome__updates-lines {
+    position: absolute;
+    left: -39px;
+    bottom: -27px;
+
 }
 
 .updates__text-section {

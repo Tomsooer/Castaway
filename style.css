@@ -98,5 +98,9 @@ a:active {
 .header__link {
     font-weight: 700;
     font-size: 18px;
+    transition: color 0.3s ease;
 }
 
+.header__link:hover {
+    color: #118DA8; /* колір при наведенні */
+}

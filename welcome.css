@@ -1,4 +1,4 @@
-.welcome .container{
+.welcome .container {
     display: flex;
     margin-bottom: 50px;
 }
@@ -16,10 +16,13 @@
 .welcome__img-wrapper {
     width: 615px;
     flex-shrink: 0;
+    position: relative;
 }
 
-.welcome__img {
-
+.welcome__lines {
+    position: absolute;
+    top: -28px;
+    left: -28px;
 }
 
 .welcome__title {
@@ -29,9 +32,20 @@
     margin-bottom: 74px;
 }
 
+
 .welcome__title-level {
     font-size: 80px;
     font-weight: 700;
+}
+
+.welcome__title-wrap {
+    position: relative;
+}
+
+.welcome__underline {
+    position: absolute;
+    left: 0;
+    bottom: 69px;
 }
 
 .welcome__text {

@@ -5,10 +5,13 @@
 
 .updates .container {
     width: 100%;
+}
+
+.updates__content-wrapper {
     display: flex;
     justify-content: space-between;
     background-color: #000000;
-    padding: 60px;
+    padding: 5%;
     border-radius: 32px;
     box-sizing: border-box;
     position: relative;
@@ -18,7 +21,6 @@
     position: absolute;
     left: -39px;
     bottom: -27px;
-
 }
 
 .updates__text-section {
@@ -36,7 +38,7 @@
 }
 
 .form__row {
-    width: 522px;
+    width: 47%;
     display: flex;
     flex-direction: column;
 }

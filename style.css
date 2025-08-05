@@ -82,6 +82,14 @@ a:active {
 .header {
     padding: 20px 0;
     backdrop-filter: blur(10px);
+    margin-bottom: 20px;
+}
+
+.logo__wrap {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    /*width: 100%;*/
 }
 
 .header .container {

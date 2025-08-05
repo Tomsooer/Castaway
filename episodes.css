@@ -36,9 +36,12 @@
 }
 
 .episodes__img-wrapper {
-    background-color: orange;
-    height: 432px;
     margin-right: 53px;
+}
+
+.episodes__img {
+    height: 100%;
+    max-width: 389px;
 }
 
 .episodes__label {

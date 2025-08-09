@@ -1,12 +1,13 @@
-.footer {
-}
-
 .footer .container {
     display: flex;
 }
 
+.footer__logo-wrap {
+    width: 30%;
+}
+
 .footer__logo {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer__social-list {
@@ -19,7 +20,7 @@ margin-bottom: 20px;
 }
 
 .footer__nav-list {
-    margin-left: 239px;
+    width: 20%;
 }
 
  .footer__nav-item {
@@ -27,7 +28,7 @@ margin-bottom: 20px;
 }
 
 .footer__info-list {
-    margin-left: 146px;
+    width: 20%;
 }
 
 .footer__info-item {

@@ -88,7 +88,6 @@ a:active {
 .logo__wrap {
     display: flex;
     justify-content: space-between;
-    background-color: orange;
     /*width: 100%;*/
 }
 

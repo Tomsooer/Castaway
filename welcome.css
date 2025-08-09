@@ -3,9 +3,6 @@
     margin-bottom: 50px;
 }
 
-.container {
-}
-
 .welcome__desc {
     display: flex;
     flex-direction: column;
@@ -14,9 +11,13 @@
 }
 
 .welcome__img-wrapper {
-    width: 615px;
+    width: 60%;
     flex-shrink: 0;
     position: relative;
+}
+
+.welcome__img {
+    width: 100%;
 }
 
 .welcome__lines {
@@ -58,6 +59,7 @@
     display: flex;
     gap: 17px;
     padding: 0 0 0 22px;
+    width: 30%;
 }
 
 .socials__img {

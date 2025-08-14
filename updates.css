@@ -44,6 +44,7 @@
 }
 
 .form__input {
+    width: calc(100% - 19px);
     border-radius: 6px;
     border: 1px solid #191919;
     background: #191919;

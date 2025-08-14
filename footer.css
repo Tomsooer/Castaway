@@ -1,9 +1,8 @@
 .footer .container {
-    display: flex;
-}
-
-.footer__logo-wrap {
-    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    padding: 40px 15px;
 }
 
 .footer__logo {
@@ -19,26 +18,20 @@
     padding-right: 10px;
 }
 
-.footer__nav-list {
-    width: 20%;
-}
-
  .footer__nav-item {
     padding-bottom: 10px;
-}
-
-.footer__info-list {
-    width: 20%;
 }
 
 .footer__info-item {
     padding-bottom: 10px;
 }
 
-.socials {
+.footer .socials {
+    padding: 0;
 }
 
-.socials__link {
+.footer__nav-list, .footer__info-list {
+    padding: 0;
 }
 
 .socials__icon {

@@ -88,7 +88,6 @@ a:active {
 .logo__wrap {
     display: flex;
     justify-content: space-between;
-    /*width: 100%;*/
 }
 
 .header .container {
@@ -109,5 +108,5 @@ a:active {
 }
 
 .header__link:hover {
-    color: #118DA8; /* колір при наведенні */
+    color: #118DA8;
 }
